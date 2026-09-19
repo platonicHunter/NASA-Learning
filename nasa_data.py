@@ -84,20 +84,22 @@ print(futureyear)
 # actual data and future predictions together
 
 plt.figure(figsize=(10, 5))
+
+# Actual data and linear regression
 plt.scatter(
     df["Year"],
     df["GMSL"],
     color="blue",
     label="Actual Data"
 )
-
+# Linear regression line
 plt.plot(
     df["Year"],
     df["Predicted"],
     color="red",
     label="Linear Regression"
 )
-
+# Future predictions
 plt.scatter(
     futureyear["Year"],
     futureyear["Predicted GMSL"],
