@@ -108,9 +108,19 @@ plt.scatter(
     label="Future Predictions"
 )
 
+
+# Labels
+for _, row in futureyear.iterrows():
+    plt.annotate(
+        f'{row["Year"]}: {row["Predicted GMSL"]:.1f} mm',
+        (row["Year"], row["Predicted GMSL"]),
+        xytext=(5, 5),
+        textcoords="offset points"
+    )
+
 plt.xlabel("Year")
 plt.ylabel("Annual Mean GMSL (mm)")
-plt.title("NASA Sea Level Data with Linear Regression")
+plt.title("Sea Level Trend and Future Predictions")
 
 plt.legend()
 plt.grid(True)
