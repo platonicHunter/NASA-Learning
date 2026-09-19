@@ -1,0 +1,19 @@
+#Math Modeling with data
+
+////
+1.Problem statement
+2.Collecting Data(Relevant Data)
+3.Task and Modeling
+4.Testing
+5.Apply 
+
+//Application
+1.Desmos
+2.Grogebra
+
+
+//Link
+https://www.desmos.com/calculator
+https://www.geogebra.org/graphing
+https://nasa.gov/wp-content/uploads/2023/06/gmsl-sateliterecord-copy.xlsx?emrc=6487c8    (Excel Data)
+
