@@ -104,6 +104,7 @@ plt.scatter(
     futureyear["Year"],
     futureyear["Predicted GMSL"],
     color="green",
+    s=100,
     label="Future Predictions"
 )
 
