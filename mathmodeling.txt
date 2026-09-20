@@ -17,3 +17,10 @@ https://www.desmos.com/calculator
 https://www.geogebra.org/graphing
 https://nasa.gov/wp-content/uploads/2023/06/gmsl-sateliterecord-copy.xlsx?emrc=6487c8    (Excel Data)
 
+
+/////  Desmos
+
+1.add data
+2.add equation (y{1} ~mx{1}+c)
+
+
